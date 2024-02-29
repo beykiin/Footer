@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .footer{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            bottom: 0px;
+            background-color: bisque;
+            align-items: center;
+        }
+        .inner-menu,.icons{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left{
+            border-right: 3px solid grey;
+            border-radius: 3px 3px 3px 3px;
+            text-align: center;
+            line-height: 25px;
+        }
+        .right{
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+        }
+        ul a{
+            text-decoration: none;
+            color: grey;
+        }
+        .left ul a{
+            font-weight: 1000;
+        }
+        .right ul{
+            display: flex;
+        }
+        .right ul li{
+            margin: 0 20px;
+        }
+        .right ul li a{
+            font-size: 30px;
+        }
+        .github{
+            color: slateblue;
+        }
+        .insta{
+            color: darkmagenta;
+        }
+        .linkedin{
+            color: darkblue;
+        }
+        .whatsapp{
+            color: lawngreen;
+        }
+        .youtube{
+            color: red;
+        }
+        .right ul li a:hover{
+            font-size: 40px;
+            transition-duration: 0.5s;
+        }
+        .left ul li a:hover{
+            color: black;
+            font-size: 20px;
+            transition-duration: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <!--  -->
+    <footer>
+        <div class="footer">
+            <div class="inner-menu left">
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Kayıt Ol!</a></li>
+                    <li><a href="#">Giriş Yap</a></li>
+                </ul>
+            </div>
+            <div class="icons right">
+                <ul>
+                    <li><a class="github" href="#"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a class="insta" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
